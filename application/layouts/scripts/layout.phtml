@@ -1,0 +1,128 @@
+<!-- application/layouts/scripts/layout.phtml -->
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Zend Framework Quickstart Application</title>
+  <?php echo $this->headLink()->appendStylesheet('/css/style.css') ?>
+  <base href="<?php echo $this->baseUrl(); ?>" />
+</head>
+<body>
+<div id="site-wrapper">
+
+	<div id="header">
+         
+		 <div>
+		 <input type="submit"  class="button" id='btn_connecter' name="inscrire" value="Se connecter" />
+		 </div>
+		 
+		 
+		<div id="top">
+
+			<div class="left" id="logo">
+			      <p id="logoborder">
+				<a href="index.html"><img src="<?php echo $this->baseUrl();?>/img/logoApt.jpeg" alt="" /></a>
+				</p>
+			</div>
+
+			<div class="left navigation" id="main-nav">
+
+				<ul class="tabbed">
+				        <li class="current-tab"><a href="/Home"> Accueil </a></li>
+					<li><a href="/Products_services/cards"> Reservation </a></li>
+					<li><a href="/shop"> S'inscrire </a></li>
+					<li><a href="/Contact_us/">Contact</a></li>
+				</ul>
+
+				<div class="clearer">&nbsp;</div>
+
+			</div>
+
+			<div class="clearer">&nbsp;</div>
+
+		</div>
+
+		
+		
+		<?php echo $this->layout()->content ?> 
+		
+		
+		
+		
+		
+		
+
+	<div id="footer">
+
+		<div class="left" id="footer-left">
+			
+			<img src="<?php echo $this->baseUrl();?>/img/logoApt.jpeg" alt=""  width="130" height="28"  class="left" />
+			
+			<p>&copy; 2013 E-Location.com . All rights Reserved</p>
+
+		
+			
+			<div class="clearer">&nbsp;</div>
+
+		</div>
+
+		
+		
+		<div class="right" id="footer-right">
+
+				<p class="large"><a class="current-tab" href="/Home"> Accueil </a> <span class="text-separator">|</span> 
+				<a href="/Products_services/cards"> Reservation  </a> <span class="text-separator">|</span> <a href="/shop"> S'inscrire  </a> <span class="text-separator">|</span> <a href="/Contact_us/"> Contact  </a> <span class="text-separator">|</span> <a href="#top" class="quiet"> Page Top  &uarr;</a></p>
+
+		</div>
+
+		<div class="clearer">&nbsp;</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+</body>
+</html>
