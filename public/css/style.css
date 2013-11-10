@@ -726,29 +726,30 @@ border: 1.5px inset #01A9DB;
 	padding: 7px 7px;
 	width : 20.5em;
 }
-#Nom{
+#Nom,#Date,#Prenom,#Adresse,#Email,#Type,#Lieu{
   background: #FCFCFC;
 	border: 1.5px inset #01A9DB;
 	padding: 7px 7px;
 	width : 20.5em;
 }
-#Prenom{
+#Date_fin , #Date_debut{
   background: #FCFCFC;
 	border: 1.5px inset #01A9DB;
 	padding: 7px 7px;
-	width : 20.5em;
+	width : 10.5em;
+	
 }
-#Adresse{
-    background: #FCFCFC;
-	border: 1.5px inset #01A9DB;
-	padding: 7px 7px;
-	width : 20.5em;
+#Date_fin-label{
+margin-left : 2em;
+margin-right : 2em;
 }
-#Email{
- background: #FCFCFC;
-	border: 1.5px inset #01A9DB;
-	padding: 7px 7px;
-	width : 20.5em;
+#Date_fin-label , #Date_fin, #Date_debut,#Date_debut-label{
+margin-top : 2em;
+margin-bottom : 2em;
+float : left;
+}
+#envoyer-element{
+ clear: both;
 }
 #id_pays{
  background: #FCFCFC;
@@ -1017,4 +1018,135 @@ padding: 4px 5px;
 }
 
 canvas { border:1px solid gray;width:615px;height:400px;}
+
+#forms_maps{
+    position: absolute;
+    top: 276px;
+	right : 320px;
+
+}
+
+#paris{
+
+ color: red;
+    font-family: arial,verdana,sans-serif;
+    font-size: 11px;
+}
+
+
+.cphMain_chkzone1 {
+position: absolute;
+    right: 92px;
+    top: 77px;
+}
+.cphMain_chkzone2 {
+position: absolute;
+    right: 82px;
+    top: 69px;   
+}
+.cphMain_chkzone3 {
+position: absolute;
+    right: 63px;
+    top: 78px;
+}
+.cphMain_chkzone4 {
+position: absolute;
+    right: 61px;
+    top: 95px;
+}
+.cphMain_chkzone5 {
+position: absolute;
+    right: 75px;
+    top: 114px;
+}
+.cphMain_chkzone6 {
+position: absolute;
+    right: 95px;
+    top: 103px;
+}
+.cphMain_chkzone7 {
+position: absolute;
+    right: 120px;
+    top: 91px;
+}
+.cphMain_chkzone8 {
+position: absolute;
+    right: 122px;
+    top: 61px;
+}
+.cphMain_chkzone9 {
+position: absolute;
+    right: 89px;
+    top: 53px;
+}
+.cphMain_chkzone10 {
+position: absolute;
+    right: 59px;
+    top: 56px;
+}
+.cphMain_chkzone11 {
+position: absolute;
+    right: 39px;
+    top: 86px;
+}
+.cphMain_chkzone12 {
+position: absolute;
+    right: 27px;
+    top: 120px;
+}
+.cphMain_chkzone13 {
+position: absolute;
+    right: 58px;
+    top: 143px;
+}
+.cphMain_chkzone14 {
+position: absolute;
+    right: 99px;
+    top: 138px;
+}
+.cphMain_chkzone15 {
+position: absolute;
+    right: 139px;
+    top: 119px;
+}
+.cphMain_chkzone16 {
+position: absolute;
+    right: 163px;
+    top: 88px;
+}
+.cphMain_chkzone17 {
+position: absolute;
+    right: 124px;
+    top: 36px;
+}
+.cphMain_chkzone18 {
+position: absolute;
+    right: 69px;
+    top: 26px;
+}
+.cphMain_chkzone19 {
+position: absolute;
+   right: 29px;
+    top: 40px;
+}
+.cphMain_chkzone20 {
+position: absolute;
+    right: 09px;
+    top: 78px;
+}
+.cphMain_chkzone92 {
+position: absolute;
+    right: 199px;
+    top: 76px;
+}
+
+
+
+
+
+
+
+
+
+
 	
